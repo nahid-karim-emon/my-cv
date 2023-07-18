@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color: black;
+  --grey: rgba(0, 0, 0, 0.8)
+}
+
+body {
+  background-color: rgba(219, 34, 34, 0.288);
+  font-family: 'Poppins', sans-serif;
+  margin: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(77, 10, 248, 0.8);
+}
+
+li {
+  list-style: none;
+}
+
+.my_cv {
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.left-align {
+  position: absolute;
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-color: rgb(247 247 247 / 69%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.left-align img {
+  border: 5px solid rgba(221, 221, 221, 0.896);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.left-align h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.left-align .role {
+  font-size: 16px;
+  margin: 5px 0 0 0;
+}
+
+.cv_social ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cv_social ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cv_social ul li p {
+  font-size: 14px;
+}
+
+.common_style {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.common_style h4 {
+  background-color: #e5e5e5;
+  color: black;
+  margin-left: -20px;
+  padding: 10px 20px;
+}
+
+.my-languages div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.right-align {
+  float: right;
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.common_flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.common_flex div {
+  max-width: 310px;
+}
+
+.common_flex h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.acm_flex {
+  justify-content: space-between;
+}
